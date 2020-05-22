@@ -1,0 +1,23 @@
+// SOBRE
+
+.box-sobre {
+    padding-left: 15%;
+
+    @include media-breakpoint-down(md) {
+        padding-left: 0;
+    }
+
+    .txt {
+        margin-top: 30px;
+    }
+
+    .sub-tit {
+        margin-top: -40px;
+        color: $color-dark-blue;
+        font-weight: 300;
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 30px;
+        }
+    }
+}

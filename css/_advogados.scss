@@ -1,0 +1,45 @@
+// .box-adv:not(:last-child) {
+//     @include media-breakpoint-down(md) {
+//         margin: 0 auto 20px;
+//     }
+// }
+
+.box-adv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 20px;
+
+    @include media-breakpoint-down(md) {
+        margin: 0 auto 20px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        width: 90%;
+
+    }
+
+    @include media-breakpoint-down(xs) {
+        width: 80%;
+
+    }
+
+    h3 {
+        color: $color-text;
+        font-weight: 500;
+        font-size: 110%;
+        margin-top: 10px;
+        text-align: center;
+
+
+    }
+
+    p {
+        text-align: center;
+        font-weight: 300;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+}

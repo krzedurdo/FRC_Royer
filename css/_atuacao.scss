@@ -1,0 +1,86 @@
+// ATUAÇÃO
+.bg-atuacao {
+    background-color: $color-beige;
+}
+
+.box-atuacao {
+    padding-right: 15%;
+    margin-bottom: 40px;
+
+    .sub-tit {
+        margin-top: -40px;
+        color: $color-dark-blue;
+        font-weight: 300;
+    }
+
+    .txt {
+        margin-top: 30px;
+    }
+
+    @include media-breakpoint-down(md) {
+        padding-right: 0;
+    }
+
+    @include media-breakpoint-down(xs) {
+        .sub-tit {
+            margin-top: 0;
+        }
+    }
+
+}
+
+.box-space {
+    margin-bottom: 20px;
+}
+
+.box-area {
+    background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-bottom: 30px;
+    min-height: 240px;
+    padding: 25px;
+    width: 99%;
+
+    img {
+        width: 50%;
+    }
+
+    h3 {
+        color: $color-text;
+        margin-top: 30px;
+        text-align: right;
+
+        :hover {
+            text-decoration: none;
+            color: $color-white;
+        }
+    }
+
+
+    @include media-breakpoint-down(md) {
+        margin: 0 auto;
+        min-height: 180px;
+        padding: 20px;
+
+        h3 {
+            margin-top: 0;
+            font-size: 110%;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        min-height: 220px;
+
+        h3 {
+            font-size: 120%;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        width: 80%;
+    }
+
+}
