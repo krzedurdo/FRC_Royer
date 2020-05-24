@@ -2,6 +2,21 @@
     background-color: $color-gray;
 }
 
+.box-faleconosco {
+    padding-right: 10%;
+    margin-bottom: 40px;
+
+    .sub-tit {
+        margin-top: -40px;
+        color: $color-dark-blue;
+        font-weight: 300;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 0;
+        }
+    }
+}
+
 .btn {
     background-color: $color-white;
     border: 1px solid $color-dark-gray;

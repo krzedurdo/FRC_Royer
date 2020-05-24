@@ -5,7 +5,6 @@
 
 .logo-n {
     width: 200px;
-    margin-left: auto;
 
     @include media-breakpoint-down(md) {
         width: 180px;
@@ -16,11 +15,22 @@
     }
 }
 
-.split-footer {
+.split-footer-c {
     background-color: $color-light-blue;
     border-radius: 10px;
     height: 2px;
     width: 80px;
+
+    @include media-breakpoint-down(xs) {
+        margin: 0 auto;
+    }
+}
+
+.split-footer-m {
+    background-color: $color-light-blue;
+    border-radius: 10px;
+    height: 2px;
+    width: 120px;
 
     @include media-breakpoint-down(xs) {
         margin: 0 auto;
@@ -93,7 +103,7 @@
         margin-left: auto;
 
         @include media-breakpoint-down(md) {
-            margin-top: 30px;
+            margin-top: 40px;
             width: 260px;
         }
 

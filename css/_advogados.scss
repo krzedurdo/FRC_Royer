@@ -4,6 +4,21 @@
 //     }
 // }
 
+.box-advogados {
+    padding-right: 10%;
+    margin-bottom: 40px;
+
+    .sub-tit {
+        margin-top: -40px;
+        color: $color-dark-blue;
+        font-weight: 300;
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 0;
+        }
+    }
+}
+
 .box-adv {
     display: flex;
     flex-direction: column;

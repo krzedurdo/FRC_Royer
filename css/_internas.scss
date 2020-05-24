@@ -1,0 +1,63 @@
+.topo {
+    background-color: $color-dark-blue;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+
+
+    h1 {
+        color: $color-white;
+        font-family: $font-title;
+
+    }
+}
+
+.box {
+    margin-left: 10%;
+
+    @include media-breakpoint-down(sm) {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .txt {
+        margin-top: 30px;
+    }
+
+    .sub-tit {
+
+        color: $color-dark-blue;
+        font-weight: 300;
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 30px;
+        }
+    }
+}
+
+.lista {
+    margin-top: 50px;
+    margin-left: 10%;
+
+    @include media-breakpoint-down(sm) {
+        margin-left: 0;
+    }
+
+    p {
+        margin-bottom: 0;
+        padding: 15px 0;
+        border-bottom: .5px solid $color-dark-gray;
+    }
+
+    // p:not(:last-child) {
+    //     border-bottom: .5px solid $color-dark-gray;
+    // }
+
+    h3 {
+        color: $color-text;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+}

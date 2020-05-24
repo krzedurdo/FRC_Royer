@@ -4,13 +4,19 @@
 }
 
 .box-atuacao {
-    padding-right: 15%;
+    padding-right: 10%;
     margin-bottom: 40px;
 
     .sub-tit {
         margin-top: -40px;
         color: $color-dark-blue;
         font-weight: 300;
+
+        @include media-breakpoint-down(xs) {
+            margin-top: 0;
+        }
+
+
     }
 
     .txt {
@@ -19,12 +25,6 @@
 
     @include media-breakpoint-down(md) {
         padding-right: 0;
-    }
-
-    @include media-breakpoint-down(xs) {
-        .sub-tit {
-            margin-top: 0;
-        }
     }
 
 }
