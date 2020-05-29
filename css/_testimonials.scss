@@ -1,0 +1,29 @@
+#testimonials {
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.bg-testimonials {
+    background-color: $color-beige;
+}
+
+.container-testimonial {
+    padding: 0 15%;
+    text-align: center;
+}
+
+.testimonials-image {
+    width: 100px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/carousel-next-btn.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/carousel-prev-btn.svg);
+}

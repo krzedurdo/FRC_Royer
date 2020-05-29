@@ -11,7 +11,7 @@ serif;
 $color-beige: #F0E7D6;
 $color-text: #000;
 $color-light-brown: #948569;
-$color-dark-brown: #473e2c;
+$color-dark-brown: #070706;
 $color-light-blue: #697c94;
 $color-dark-blue: #243447;
 $color-gray: #f0f0f0;
@@ -96,6 +96,19 @@ img {
         padding-top: 100px;
         padding-bottom: 100px;
     }
+}
+
+.space-b {
+    padding-bottom: 150px;
+
+    @include media-breakpoint-down(xs) {
+        padding-bottom: 100px;
+    }
+}
+
+.space-testmonials {
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .split {
