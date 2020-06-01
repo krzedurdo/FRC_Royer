@@ -3,7 +3,7 @@
 $font-primary: 'Quicksand',
 sans-serif;
 
-$font-title: 'DM Serif Text',
+$font-title: 'Roboto Slab',
 serif;
 
 // COLORS
@@ -43,10 +43,12 @@ body {
 
 p {
     font-weight: 400;
+    hyphens: none;
 }
 
+
 h1 {
-    letter-spacing: 3px;
+    // letter-spacing: 1px;
 }
 
 h2 {

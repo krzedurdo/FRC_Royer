@@ -18,6 +18,10 @@
     width: 100px;
     border-radius: 100%;
     margin: 10px;
+
+    @include media-breakpoint-down(sm) {
+        width: 80px;
+    }
 }
 
 .carousel-control-next-icon {

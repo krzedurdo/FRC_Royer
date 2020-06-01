@@ -6,6 +6,10 @@
     padding-right: 10%;
     margin-bottom: 40px;
 
+    @include media-breakpoint-down(md) {
+        padding-right: 0;
+    }
+
     .sub-tit {
         margin-top: -40px;
         color: $color-dark-blue;
